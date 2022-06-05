@@ -1,0 +1,12 @@
+[Unit]
+Description=Husqvarna speedo
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python2.7 /home/pipi/husq_reader.py
+Restart=on-abort
+User=pipi
+
+[Install]
+WantedBy=multi-user.target

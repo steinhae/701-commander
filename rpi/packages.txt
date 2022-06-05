@@ -1,0 +1,3 @@
+sudo apt-get install hostapd
+sudo apt-get install dnsmasq
+sudo apt-get install nginx

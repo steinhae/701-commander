@@ -1,0 +1,6 @@
+[submodule "panda"]
+	path = panda
+	url = https://github.com/steinhae/panda.git
+[submodule "d3-car-dashboard"]
+	path = d3-car-dashboard
+	url = https://github.com/steinhae/d3-car-dashboard.git
